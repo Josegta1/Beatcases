@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beatcase - Alcolirykoz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-left">
+            <h1>ALCOLIRIKOZ</h1>
+        </div>
+        <div class="navbar-right">
+            <ul>
+                <li><a href="#INICIO">INICIO</a></li>
+                <li><a href="#caracteristicas">CARACTERÍSTICAS</a></li>
+                <li><a href="#tiendas">TIENDAS</a></li>
+                <li><a href="#CONTACTO">CONTACTO</a></li>
+            </ul>
+            
+            <div class="language-selector">
+
+
+                </ul>
+            </div>
+            <div class="language-selector">
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <img src="Imagenes/Colombia.png" alt="English" id="selected-flag" title="Españo">
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#" onclick="changeLanguage('es', 'banderas/es.png')">
+                            <img src="Imagenes/Colombia.png" alt="Español" title="Español"> Español
+                        </a>
+                        <a href="#" onclick="changeLanguage('en', 'banderas/en.png')">
+                            <img src="Imagenes/USA.png" alt="English" title="English"> English
+                        </a>
+                        <a href="#" onclick="changeLanguage('fr', 'banderas/fr.png')">
+                            <img src="Imagenes/Francia.jpg" alt="Français" title="Français"> Français
+                        </a>
+                        <a href="#" onclick="changeLanguage('it', 'banderas/it.png')">
+                            <img src="Imagenes/Italia.png" alt="Italiano" title="Italiano"> Italiano
+                        </a>
+                    </div>
+                </div>
+                <script>
+                    
+                        // Cambia la bandera seleccionada
+                        document.getElementById("selected-flag").src = flagSrc;
+                    
+                </script>
+
+            </div>
+    </nav>
+
+
+
+    <section class="banner">
+        <img src="Imagenes/principal.png" alt="Beatcase Publicidad">
+    </section>
+
+    <section class="pre-order">
+        <a href="#imagenes-referencias" class="pre-order-button">Nuevos diseños</a>
+        <p>Pre-order ya disponible </p>
+    </section>    
+
+    <section id="caracteristicas" class="features">
+        <h2>Beatcases</h2>
+        <p>Protege tu teléfono con estilo. Nuestra funda para celular Alcolirykoz está hecha de goma TPU, con laterales
+            antideslizantes y una imagen 2D resistente al sol, al agua y a los rayones. Combina durabilidad con arte
+            urbano único,inspirado en la cultura de este icónico grupo.</p>
+    </section>
+
+    <section id="Referencias" class="references">
+        <h2>Referencias</h2>
+        <div id="imagenes-referencias" class="references-images">
+            <div class="reference-item">
+                <img src="Imagenes/AZCOLORS.jpg" alt="AZCOLORS">
+                <p>Ref AZCOLORS</p>
+            </div>
+            <div class="reference-item">
+                <img src="Imagenes/AZA_N.jpg" alt="AZA/N">
+                <p>Ref AZA/N</p>
+            </div>
+            <div class="reference-item">
+                <img src="Imagenes/RefAZB_N.jpg" alt="AZB/N">
+                <p>Ref AZB/N</p>
+            </div>
+        </div>
+    </section>    
+    
+    
+
+    <section class="video-section">
+        <h2>Beatcases vs. Competencia: ¿Qué nos hace diferentes?</h2>
+        <p>Nuestra funda no solo es funcional, sino una obra de arte que refleja el estilo y la esencia de Alcolirykoz.
+            En comparación con las fundas genéricas, este diseño único es ideal para los fanáticos y amantes del estilo
+            urbano. Fabricada con materiales de primera calidad, nuestra funda ofrece una protección superior. Mientras
+            que otras fundas pueden desgastarse rápidamente, la funda Alcolirykoz está diseñada para durar y proteger en
+            cualquier situación.</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2VppAEhglv0?si=N0R4QbM9n7B-leLX"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </section>
+
+    <section class="testimonials">
+        <h2>Testimonios</h2>
+        <div class="carousel">
+            <img src="Imagenes/testimonio1.jpeg" alt="Roma">
+            <img src="Imagenes/testimonio2.jpeg" alt="Berlín">
+            <img src="Imagenes/testimonio3.PNG" alt="Buenos Aires">
+            <img src="Imagenes/testimonio4.jpeg" alt="São Paulo">
+        </div>
+    </section>
+
+    <section class="tiendaoficial">
+        <h2>Tienda Oficial</h2>
+        <img src="Imagenes/Local.jpg" alt="">
+    </section>
+
+
+    <section id="tiendas" class="tiendas">
+        <h2>Nuestras Tiendas</h2>
+        <div class="store">
+            <div class="container">
+                <div class="info">
+                    <h2>COLOMBIA</h2>
+                    <p>Dirección: Cra. 51 #95, Aranjuez, Medellín, Aranjuez, Medellín, Antioquia</p>
+                    <p>Teléfono: +57 3218169878</p>
+
+                </div>
+                <nav>
+                    <div class="column">
+                        <h2>USA</h2>
+                        <p>Dirección: 1234 Elm Street
+                            Springfield, IL 62704</p>
+                        <p>Teléfono: +1 (217) 555-7890</p>
+                    </div>
+                </nav>
+                <nav>
+                    <div class="column">
+                        <h2>FRANCIA</h2>
+                        <p>Dirección: 15 Rue de Rivoli
+                            75001 Paris</p>
+                        <p>Teléfono: +81 3-1234-5678</p>
+                    </div>
+                </nav>
+                <nav>
+                    <div class="column">
+                        <h2>ITALIA</h2>
+                        <p>Dirección: Via Roma 12
+                            00184 Roma, Italia</p>
+                        <p>Teléfono: +39 06 9876543</p>
+                    </div>
+                </nav>
+    </section>
+
+    <footer class="footer">
+        <section id="CONTACTO" class="CONTACTO">
+        <p>Contáctanos a través de nuestras redes sociales: </p> 
+
+        <div class="social-icons">
+            <a href="https://www.facebook.com/share/PMa7KaVYzjkcoH9h/?mibextid=LQQJ4d" target="_blank">
+                <img src="Imagenes/logofacebook.png" alt="Facebook" />
+            </a>
+            <a href="https://wa.me/message/7AYUP3KEDC22B1" target="_blank">
+                <img src="Imagenes/logowhatsapp.png" alt="WhatsApp" />
+            </a>
+            <a href="https://www.instagram.com/coquette.by.lau?igsh=aHRvdTJtd2dnYjlq" target="_blank">
+                <img src="Imagenes/Instagram.png" alt="Instagram" />
+            </a>
+        </div>
+
+        <div class="copyright">
+            <p>© 2024 - Beatcases. Todos los derechos reservados.</p>
+        </div>
+        </section>
+    </footer>
+
+
+</body>
+
+</html>
